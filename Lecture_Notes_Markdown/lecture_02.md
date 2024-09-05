@@ -74,7 +74,6 @@
     - $\vec{v}_i = (0, 0, 0)$
     - $\vec{a} = \vec{g} = (0, 0, -9.8 \frac{m}{s^2})$
   - Rearranging, $h = \frac{1}{2} \cdot 9.8 \cdot t^2$
-  - And $\frac{2h}{g} = t_f-t_i $
 - Example: If an object is dropped from a height of 100 meters, how long will it take to hit the ground?
   - $t_f = \sqrt{\frac{2 \cdot 100}{9.8}} \approx 4.52 s$
 
