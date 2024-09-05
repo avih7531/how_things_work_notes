@@ -33,7 +33,7 @@
          - **$\sqrt{10}$**
        - To get the vector displacement, you would subtract the two vectors
          - $\langle x_2, y_2 \rangle - \langle x_1, y_1 \rangle = \langle x_2-x_1, y_2-y_1 \rangle$
-         - $2-(-1) = 3$ and $2-3 = -1$ and thus the vector displacement is **$\langle 3, -1 \rangle**
+         - $2-(-1) = 3$ and $2-3 = -1$ and thus the vector displacement is **$\langle 3, -1 \rangle$**
 
 ### Units
 - Dimensionless numbers
