@@ -7,9 +7,6 @@ Welcome to the repository for the class notes of "How Things Work (Physical Scie
 - **Time:** 9:30-10:45am
 - **Location:** 6 Washington Place
 
-## Repository Purpose
-This repository is dedicated to class notes. It will be regularly updated with notes from each lecture, summaries of key concepts, and any additional resources provided during the course.
-
 ## Usage
 Use the `Lecture_Notes_PDF` folder to view, download, and print the notes (recommended to download and view as opposed to using the Github GUI). Use `Lecture_Notes_Markdown` to view and edit the notes in markdown format.
 
