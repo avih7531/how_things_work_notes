@@ -6,7 +6,8 @@
 1. [Newton's First Law of Motion](#newtons-first-law-of-motion)
 2. [Newton's Second Law of Motion](#newtons-second-law-of-motion)
 3. [Gravitational Force](#gravitational-force)
-4. [PollEV Answers](#pollev-answers)
+4. [Important Equations](#important-equations)
+5. [PollEV Answers](#pollev-answers)
 
 ## Newton's First Law of Motion
 - **An object subject to no external forces moves at a constant velocity.**
@@ -76,6 +77,15 @@
   - Rearranging, $h = \frac{1}{2} \cdot 9.8 \cdot t^2$
 - Example: If an object is dropped from a height of 100 meters, how long will it take to hit the ground?
   - $t_f = \sqrt{\frac{2 \cdot 100}{9.8}} \approx 4.52 s$
+
+## Important Equations
+| Name                          | Equation                                                                                       |
+|-------------------------------|------------------------------------------------------------------------------------------------|
+| Newton's First Law of Motion  | $\vec{x}_f = \vec{x}_i + \vec{v} \cdot (t_f - t_i)$                                            |
+| Newton's Second Law of Motion | $\vec{a} = \frac{\vec{F}_{\text{net}}}{m}$                                                     |
+|                               | $\vec{v}_f = \vec{v}_i + \vec{a} \cdot (t_f - t_i)$                                            |
+|                               | $\vec{x}_f = \vec{x}_i + \vec{v}_i \cdot (t_f - t_i) + \frac{1}{2} \vec{a} \cdot (t_f - t_i)^2$|
+| Gravitational Force           | $\vec{F}_g = (0, 0, -9.8 \frac{m}{s^2})$                                                       |
 
 ###### PollEV Answers
 1. *D* (2, 2, -2)
