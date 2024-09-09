@@ -5,13 +5,29 @@
 ## Table of Contents
 - [Symbols & Notation](#symbols--notation)
 - [Exponents](#exponents)
+  - [Properties](#properties)
 - [Scientific Notation & E Notation](#scientific-notation--e-notation)
+  - [Operations](#operations)
+  - [Addition/Subtraction](#additionsubtraction)
 - [Units](#units)
+  - [Conversion example](#conversion-example)
+  - [Metric System Prefixes](#metric-system-prefixes)
 - [Numerical Precision](#numerical-precision)
 - [Trigonometry](#trigonometry)
+  - [Radians vs Degrees](#radians-vs-degrees)
 - [Proportional Relationships](#proportional-relationships)
 - [Order-of-Magnitude Estimation](#order-of-magnitude-estimation)
 - [Gravitational Law](#gravitational-law)
+  - [Proportionality of Force](#proportionality-of-force)
+- [Vector Math](#vector-math)
+  - [Vector Notation](#vector-notation)
+  - [Vector Addition](#vector-addition)
+  - [Scalar Multiplication](#scalar-multiplication)
+  - [Dot Product](#dot-product)
+  - [Cross Product](#cross-product)
+  - [Magnitude of a Vector](#magnitude-of-a-vector)
+  - [Unit Vector](#unit-vector)
+  - [Vector Example](#vector-example)
 
 ---
 
@@ -165,15 +181,60 @@ Where:
 Example:
 - If the Earth-moon distance were halved, the gravitational force would increase by a factor of $4$ due to the inverse-square law.
 
----
-
-### Additional Exercises:
-1. How many doctors are in the US?
-2. How many subway cars does the NYC Transit Authority own?
-3. How many humans have ever lived on Earth?
-
-These questions invite you to apply proportional and order-of-magnitude reasoning to arrive at plausible estimates.
 
 ---
 
+## Vector Math
 
+Vectors are quantities that have both magnitude and direction. They are often represented as arrows in a coordinate system.
+
+### Vector Notation
+- A vector can be written as **v** or \(\vec{v}\).
+- In component form: \(\vec{v} = \langle v_x, v_y, v_z \rangle\).
+
+### Vector Addition
+- To add two vectors, add their corresponding components:
+  $$
+  \vec{u} + \vec{v} = \langle u_x + v_x, u_y + v_y, u_z + v_z \rangle
+  $$
+
+### Scalar Multiplication
+- To multiply a vector by a scalar, multiply each component by the scalar:
+  $$
+  c \cdot \vec{v} = \langle c \cdot v_x, c \cdot v_y, c \cdot v_z \rangle
+  $$
+
+### Dot Product
+- The dot product of two vectors is a scalar:
+  $$
+  \vec{u} \cdot \vec{v} = u_x v_x + u_y v_y + u_z v_z
+  $$
+
+### Cross Product
+- The cross product of two vectors is another vector:
+  $$
+  \vec{u} \times \vec{v} = \langle u_y v_z - u_z v_y, u_z v_x - u_x v_z, u_x v_y - u_y v_x \rangle
+  $$
+
+### Magnitude of a Vector
+- The magnitude (or length) of a vector \(\vec{v}\) is:
+  $$
+  |\vec{v}| = \sqrt{v_x^2 + v_y^2 + v_z^2}
+  $$
+
+### Unit Vector
+- A unit vector has a magnitude of 1 and points in the same direction as the original vector:
+  $$
+  \hat{v} = \frac{\vec{v}}{|\vec{v}|}
+  $$
+
+### Vector Example
+- Given \(\vec{a} = \langle 2, 3, 4 \rangle\) and \(\vec{b} = \langle 1, 0, -1 \rangle\):
+  - \(\vec{a} + \vec{b} = \langle 3, 3, 3 \rangle\)
+  - \(2 \cdot \vec{a} = \langle 4, 6, 8 \rangle\)
+  - \(\vec{a} \cdot \vec{b} = 2 \cdot 1 + 3 \cdot 0 + 4 \cdot (-1) = -2\)
+  - \(\vec{a} \times \vec{b} = \langle 3 \cdot (-1) - 4 \cdot 0, 4 \cdot 1 - 2 \cdot (-1), 2 \cdot 0 - 3 \cdot 1 \rangle = \langle -3, 6, -3 \rangle\)
+  - \(|\vec{a}| = \sqrt{2^2 + 3^2 + 4^2} = \sqrt{29}\)
+  - \(\hat{a} = \frac{\vec{a}}{\sqrt{29}} = \langle \frac{2}{\sqrt{29}}, \frac{3}{\sqrt{29}}, \frac{4}{\sqrt{29}} \rangle\)
+
+---
