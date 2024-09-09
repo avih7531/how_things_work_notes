@@ -90,4 +90,3 @@
 ###### PollEV Answers
 1. *D* (2, 2, -2)
  - What is $\vec{x}_f$ if $\vec{x}_i = (-4, 6, -8)$, $\vec{v} = (2, \frac{-4}{3}, 2)$, $t_f = 3$, and $t_i = 0$?
-
