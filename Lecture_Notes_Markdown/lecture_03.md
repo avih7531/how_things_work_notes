@@ -9,7 +9,6 @@
   - [Tossing a Ball Upwards](#tossing-a-ball-upwards)
 - [Newtown's Third Law](#newtowns-third-law)
 - [Support Forces](#support-forces)
-- [Energy and Work](#energy-and-work)
 - [Lecture 3 Question Set](#lecture-3-question-set)
   - [Why doesn't Newton’s third law imply that all forces cancel each other out?](#1-why-doesnt-newtons-third-law-imply-that-all-forces-cancel-each-other-out)
   - [How are ramps useful? How do they affect the force required to lift something?](#2-how-are-ramps-useful-how-do-they-affect-the-force-required-to-lift-something)
