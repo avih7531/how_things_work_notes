@@ -7,11 +7,13 @@
   - [Units](#units)
   - [Rules](#rules)
   - [Right Hand Rule](#right-hand-rule)
-  - [Angular Velocity](#angular-velocity)
+    - [Visual Example of Right Hand Rule](#visual-example)
+- [Angular Velocity](#angular-velocity)
+  - [Example: Find the angular velocity of the second hand on a clock](#example-find-the-angular-velocity-of-the-second-hand-on-a-clock)
 - [Torque](#torque)
+  - [Diagram of Torque](#diagram-of-torque)
 - [Friction](#friction)
-- [Power](#power)
-- [Kinetic Energy](#kinetic-energy)
+  - [Visual Example of Friction](#visual-example-of-friction)
 - [PollEV Answers](#pollev-answers)
 
 
@@ -41,32 +43,32 @@
   - If a wheel is rotating counterclockwise when viewed from above, you would:
   - Point your fingers in the direction of the rotation (counterclockwise).
   - Your thumb will point upwards, indicating that the angular momentum vector $(\vec{\omega})$ is directed upwards.
-### Visual Example
+### Visual Example of Right Hand Rule
 - Note $\vec{\omega} = \vec{L}$ in this example
 ![Right Hand Rule](https://files.mtstatic.com/site_4539/11790/0?Expires=1726590181&Signature=ID-TUuh02uCfcyaYIhANNqxcQPUlc~~DT2R0-L4DSFltQD6BkBdeyYKnZNUcyaxMEFCKWdI-6abUyJ5pvJXtiAAEix8W7lJ9wnTk5~NzqbAbfuZ0ybJ-xEEw~DKPeTGVnF7Gekv16JVj7csbOldQpPoWVpy4LGywCJYq6We8RG4_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
 
-### Angular Velocity
+## Angular Velocity
 $\vec{\omega} = \frac{\vec{\theta}_f - \vec{\theta}_i}{t_f - t_i}$
 
-- Example: Find the angular velocity of the second hand on a clock
-  - Understanding the Rotation and Angular Velocity
-    - The second hand completes one full rotation (360°) in 60 seconds. In radians, a full rotation is \( 2\pi \) radians.
-  - Right-Hand Rule
-    - For clocks, the second hand rotates clockwise. However, angular velocity and momentum are typically defined using the right-hand rule:
-      - Curl the fingers of your right hand in the direction of the second hand's rotation (clockwise).
-      - Your thumb points in the direction of the angular velocity vector \( \vec{\omega} \), which, in this case, points downward (into the clock face).
-  - Time for One Full Rotation
-    - One complete revolution of the second hand takes 60 seconds.
-  - Calculating Angular Velocity
-    - Angular velocity \( \omega \) is defined as the change in angular displacement over time. For uniform circular motion:
-    \[
-    \omega = \frac{\Delta \theta}{\Delta t}
-    \]
-      - Here, \( \Delta \theta = 2\pi \) radians (full circle) and \( \Delta t = 60 \text{ s} \).
-  - Angular Velocity (in radians per second)
-    \[
-    \omega = \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{\pi}{30} \text{ rad/s}
-    \]
+### Example: Find the angular velocity of the second hand on a clock
+- Understanding the Rotation and Angular Velocity
+  - The second hand completes one full rotation (360°) in 60 seconds. In radians, a full rotation is \( 2\pi \) radians.
+- Right-Hand Rule
+  - For clocks, the second hand rotates clockwise. However, angular velocity and momentum are typically defined using the right-hand rule:
+    - Curl the fingers of your right hand in the direction of the second hand's rotation (clockwise).
+    - Your thumb points in the direction of the angular velocity vector \( \vec{\omega} \), which, in this case, points downward (into the clock face).
+- Time for One Full Rotation
+  - One complete revolution of the second hand takes 60 seconds.
+- Calculating Angular Velocity
+  - Angular velocity \( \omega \) is defined as the change in angular displacement over time. For uniform circular motion:
+  \[
+  \omega = \frac{\Delta \theta}{\Delta t}
+  \]
+    - Here, \( \Delta \theta = 2\pi \) radians (full circle) and \( \Delta t = 60 \text{ s} \).
+- Angular Velocity (in radians per second)
+  \[
+  \omega = \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{\pi}{30} \text{ rad/s}
+  \]
 
 ## Torque
 - Torque is the rotational equivalent of force.
@@ -78,8 +80,9 @@ $\vec{\omega} = \frac{\vec{\theta}_f - \vec{\theta}_i}{t_f - t_i}$
 - $\tau = |\vec{\tau}| = \vec{r} \times \vec{F}_\perp$
   - $\vec{r}$ is the distance from the axis of rotation
   - $\vec{F}$ is the force applied
+### Diagram of Torque
 ![Torque Diagram](https://lh3.googleusercontent.com/proxy/fOcdDRBrIp5G8LjbYsXORZzam1YwKKHVTKIzpPaU75jFemEVpSrsEDwBht649q1Du5qPChdNMA5DhSIat_sfle9aaX3yFrfWAmrIxZuRVu9XP2i_IpcjyGVYAIyHhHF2)
-
+- Note $\vec{F} = \vec{F}_\perp$
 ## Friction
 - Friction is a force that opposes motion.
   - Static friction prevents motion
@@ -93,7 +96,8 @@ $\vec{\omega} = \frac{\vec{\theta}_f - \vec{\theta}_i}{t_f - t_i}$
   - $F_{\text{push}}$ is the force applied to the object
   - $\mu_{\text{static friction}}$ is the coefficient of static friction
   - $F_{\text{support}}$ is the support force
-### Visual Example
+
+### Visual Example of Friction
 - Note $\vec{F}_\text{support} = \vec{F}_\text{normal}$
 ![Friction Diagram](https://tuitionphysics.com/wp-content/uploads/2020/06/free-body-diagram.jpg)
 
