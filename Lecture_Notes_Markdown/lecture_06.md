@@ -105,7 +105,8 @@
   - What is the velocity vector of right middle point of a wheel's rim?
 - *C* ($50 \frac{m}{s}$)
   - A roller coaster car drops from rest at a height of $150 m$ along a complicated track. Ignoring friction, what is the velocity of the car $25 m$ above the ground?
-To determine the speed of the roller coaster car at 25 meters above the ground, we can use the principle of **conservation of mechanical energy**. This principle states that in the absence of non-conservative forces (like friction), the total mechanical energy (potential + kinetic) of an object remains constant.
+  
+    - To determine the speed of the roller coaster car at 25 meters above the ground, we can use the principle of **conservation of mechanical energy**. This principle states that in the absence of non-conservative forces (like friction), the total mechanical energy (potential + kinetic) of an object remains constant.
 
 **Given:**
 - **Initial Height (\( h_i \))**: 150 meters
