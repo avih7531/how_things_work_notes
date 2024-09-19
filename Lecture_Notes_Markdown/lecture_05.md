@@ -8,6 +8,7 @@
   - [Rules](#rules)
   - [Right Hand Rule](#right-hand-rule)
     - [Visual Example of Right Hand Rule](#visual-example)
+    - [Trick for Right Hand Rule](#trick-for-right-hand-rule)
 - [Angular Velocity](#angular-velocity)
   - [Example: Find the angular velocity of the second hand on a clock](#example-find-the-angular-velocity-of-the-second-hand-on-a-clock)
 - [Torque](#torque)
@@ -46,6 +47,10 @@
 ### Visual Example of Right Hand Rule
 - Note $\vec{\omega} = \vec{L}$ in this example
 ![Right Hand Rule](https://files.mtstatic.com/site_4539/11790/0?Expires=1726590181&Signature=ID-TUuh02uCfcyaYIhANNqxcQPUlc~~DT2R0-L4DSFltQD6BkBdeyYKnZNUcyaxMEFCKWdI-6abUyJ5pvJXtiAAEix8W7lJ9wnTk5~NzqbAbfuZ0ybJ-xEEw~DKPeTGVnF7Gekv16JVj7csbOldQpPoWVpy4LGywCJYq6We8RG4_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
+
+### Trick for Right Hand Rule
+- Clockwise = away from you
+- Counterclockwise = towards you
 
 ## Angular Velocity
 $\vec{\omega} = \frac{\vec{\theta}_f - \vec{\theta}_i}{t_f - t_i}$
